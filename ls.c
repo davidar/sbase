@@ -446,8 +446,9 @@ ls_main(int argc, char *argv[])
 	} ARGEND
 
 	switch (argc) {
-	case 0: /* fallthrough */
+	case 0:
 		*--argv = ".", ++argc;
+		/* fallthrough */
 	case 1:
 		mkent(&ent, argv[0], 1, Hflag || Lflag);
 		ls("", &ent, (!dflag && S_ISDIR(ent.mode)) ||

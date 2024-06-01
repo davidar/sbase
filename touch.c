@@ -40,7 +40,7 @@ parsetime(char *str)
 	time_t now;
 	struct tm *cur, t = { 0 };
 	int zulu = 0;
-	char *format;
+	char *format = NULL;
 	size_t len = strlen(str);
 
 	if ((now = time(NULL)) == -1)

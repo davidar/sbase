@@ -1464,6 +1464,7 @@ cmd_s(Cmd *c)
 				p += len;
 				switch (*p) {
 				default: leprintf("this shouldn't be possible");
+					/* fallthrough */
 				case '\0':
 					/* we're at the end, back up one so the ++p will put us on
 					 * the null byte to break out of the loop */

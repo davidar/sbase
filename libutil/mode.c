@@ -19,7 +19,7 @@ parsemode(const char *str, mode_t mode, mode_t mask)
 {
 	char *end;
 	const char *p = str;
-	int octal, op;
+	int octal, op = 0;
 	mode_t who, perm, clear;
 
 	octal = strtol(str, &end, 8);

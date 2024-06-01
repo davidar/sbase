@@ -18,7 +18,7 @@ static int
 dropinit(int fd, const char *fname, size_t count)
 {
 	Rune r;
-	char buf[BUFSIZ], *p;
+	char buf[BUFSIZ], *p = NULL;
 	ssize_t n;
 	int nr;
 
@@ -82,7 +82,7 @@ taketail(int fd, const char *fname, size_t count)
 {
 	static char *buf = NULL;
 	static size_t size = 0;
-	char *p;
+	char *p = NULL;
 	size_t len = 0, left;
 	ssize_t n;
 

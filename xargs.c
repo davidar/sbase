@@ -181,6 +181,7 @@ spawn(void)
 	switch (fork()) {
 	case -1:
 		eprintf("fork:");
+		/* fallthrough */
 	case 0:
 		execvp(*cmd, cmd);
 		savederrno = errno;
@@ -204,7 +205,7 @@ xargs_main(int argc, char *argv[])
 	size_t argsz, argmaxsz;
 	size_t arglen, a;
 	char *arg = "";
-	char *replstr;
+	char *replstr = NULL;
 
 	if ((argmaxsz = sysconf(_SC_ARG_MAX)) == (size_t)-1)
 		argmaxsz = _POSIX_ARG_MAX;

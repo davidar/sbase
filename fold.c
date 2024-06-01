@@ -17,7 +17,7 @@ static void
 foldline(struct line *l, const char *fname) {
 	size_t i, col, last, spacesect, len;
 	Rune r;
-	int runelen;
+	int runelen = 0;
 
 	for (i = 0, last = 0, col = 0, spacesect = 0; i < l->len; i += runelen) {
 		if (col >= width && ((l->data[i] != '\r' && l->data[i] != '\b') || bflag)) {

@@ -243,6 +243,7 @@ spawn(char *argv[])
 	switch((pid = fork())) {
 	case -1:
 		eprintf("fork:");
+		/* fallthrough */
 	case 0:
 		execvp(*argv, argv);
 		weprintf("exec %s failed:", *argv);

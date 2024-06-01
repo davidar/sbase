@@ -314,8 +314,8 @@ static struct spec *
 makespec(char *s)
 {
 	struct spec *sp;
-	int fileno;
-	size_t fldno;
+	int fileno = 0;
+	size_t fldno = 0;
 
 	if (!strcmp(s, "0")) {   /* join field must be 0 and nothing else */
 		fileno = 0;

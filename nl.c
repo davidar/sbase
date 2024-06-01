@@ -121,13 +121,14 @@ nl_main(int argc, char *argv[])
 	FILE *fp = NULL;
 	size_t s;
 	int ret = 0;
-	char *d, *formattype, *formatblit;
+	char *d, *formattype, *formatblit = NULL;
 
 	ARGBEGIN {
 	case 'd':
 		switch (utflen((d = EARGF(usage())))) {
 		case 0:
 			eprintf("empty logical page delimiter\n");
+			/* fallthrough */
 		case 1:
 			s = strlen(d);
 			delim = emalloc(s + 1 + 1);

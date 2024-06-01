@@ -141,6 +141,7 @@ unexpand_main(int argc, char *argv[])
 		if (!*tl)
 			eprintf("tablist cannot be empty\n");
 		/* Fallthrough: -t implies -a */
+		/* fallthrough */
 	case 'a':
 		aflag = 1;
 		break;

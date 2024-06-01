@@ -105,6 +105,7 @@ comp(int fd, const char *tool, const char *flags)
 	switch (fork()) {
 	case -1:
 		eprintf("fork:");
+		/* fallthrough */
 	case 0:
 		dup2(fd, 1);
 		dup2(fds[0], 0);
@@ -130,6 +131,7 @@ decomp(int fd, const char *tool, const char *flags)
 	switch (fork()) {
 	case -1:
 		eprintf("fork:");
+		/* fallthrough */
 	case 0:
 		dup2(fd, 0);
 		dup2(fds[1], 1);
@@ -255,7 +257,7 @@ static int
 unarchive(char *fname, ssize_t l, char b[BLKSIZ])
 {
 	char lname[101], *tmp, *p;
-	long mode, major, minor, type, mtime, uid, gid;
+	long mode = 0, major, minor, type, mtime = 0, uid, gid;
 	struct header *h = (struct header *)b;
 	int fd = -1;
 	struct timespec times[2];

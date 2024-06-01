@@ -38,7 +38,7 @@ uniqskip(struct line *l)
 static void
 uniqline(FILE *ofp, struct line *l)
 {
-	size_t loff;
+	size_t loff = 0;
 
 	if (l) {
 		loff = uniqskip(l);
