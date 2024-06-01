@@ -79,7 +79,7 @@ usage(void)
 }
 
 int
-main(int argc, char *argv[])
+pathchk_main(int argc, char *argv[])
 {
 	int ret = 0;
 

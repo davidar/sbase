@@ -44,7 +44,7 @@ usage(void)
 }
 
 int
-main(int argc, char *argv[])
+logger_main(int argc, char *argv[])
 {
 	size_t sz;
 	int logflags = 0, priority = LOG_NOTICE, i;

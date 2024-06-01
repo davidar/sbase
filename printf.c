@@ -16,7 +16,7 @@ usage(void)
 }
 
 int
-main(int argc, char *argv[])
+printf_main(int argc, char *argv[])
 {
 	Rune *rarg;
 	size_t i, j, argi, lastargi, formatlen, blen;

@@ -30,7 +30,7 @@ usage(void)
 }
 
 int
-main(int argc, char *argv[])
+comm_main(int argc, char *argv[])
 {
 	FILE *fp[2];
 	static struct line line[2];

@@ -12,7 +12,7 @@ usage(void)
 }
 
 int
-main(int argc, char *argv[])
+uname_main(int argc, char *argv[])
 {
 	struct utsname u;
 	int mflag = 0, nflag = 0, rflag = 0, sflag = 0, vflag = 0;

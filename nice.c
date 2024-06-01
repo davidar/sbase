@@ -22,7 +22,7 @@ usage(void)
 }
 
 int
-main(int argc, char *argv[])
+nice_main(int argc, char *argv[])
 {
 	int val = 10, r, savederrno;
 

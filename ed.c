@@ -1614,7 +1614,7 @@ init(char *fname)
 }
 
 int
-main(int argc, char *argv[])
+ed_main(int argc, char *argv[])
 {
 	ARGBEGIN {
 	case 'p':

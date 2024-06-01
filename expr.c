@@ -229,7 +229,7 @@ parse(char *expr[], int numexpr)
 }
 
 int
-main(int argc, char *argv[])
+expr_main(int argc, char *argv[])
 {
 	int ret;
 

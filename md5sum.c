@@ -22,7 +22,7 @@ usage(void)
 }
 
 int
-main(int argc, char *argv[])
+md5sum_main(int argc, char *argv[])
 {
 	int ret = 0, (*cryptfunc)(int, char **, struct crypt_ops *, uint8_t *, size_t) = cryptmain;
 	uint8_t md[MD5_DIGEST_LENGTH];

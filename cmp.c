@@ -12,7 +12,7 @@ usage(void)
 }
 
 int
-main(int argc, char *argv[])
+cmp_main(int argc, char *argv[])
 {
 	FILE *fp[2];
 	size_t line = 1, n;

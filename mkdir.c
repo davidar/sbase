@@ -13,7 +13,7 @@ usage(void)
 }
 
 int
-main(int argc, char *argv[])
+mkdir_main(int argc, char *argv[])
 {
 	mode_t mode, mask;
 	int pflag = 0, ret = 0;

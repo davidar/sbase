@@ -17,7 +17,7 @@ usage(void)
 }
 
 int
-main(int argc, char *argv[])
+ln_main(int argc, char *argv[])
 {
 	char *targetdir = ".", *target = NULL;
 	int ret = 0, sflag = 0, fflag = 0, dirfd = AT_FDCWD,

@@ -85,7 +85,7 @@ usage(void)
 }
 
 int
-main(int argc, char *argv[])
+paste_main(int argc, char *argv[])
 {
 	struct fdescr *dsc;
 	Rune *delim_rune = NULL;

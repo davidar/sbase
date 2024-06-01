@@ -208,7 +208,7 @@ usage(void)
 }
 
 int
-main(int argc, char *argv[])
+od_main(int argc, char *argv[])
 {
 	int fd;
 	struct type *t;

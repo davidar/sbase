@@ -106,7 +106,7 @@ usage(void)
 }
 
 int
-main(int argc, char *argv[])
+touch_main(int argc, char *argv[])
 {
 	struct stat st;
 	char *ref = NULL;

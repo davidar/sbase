@@ -56,7 +56,7 @@ usage(void)
 }
 
 int
-main(int argc, char *argv[])
+kill_main(int argc, char *argv[])
 {
 	pid_t pid;
 	size_t i;

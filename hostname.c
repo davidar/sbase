@@ -12,7 +12,7 @@ usage(void)
 }
 
 int
-main(int argc, char *argv[])
+hostname_main(int argc, char *argv[])
 {
 	char host[HOST_NAME_MAX + 1];
 

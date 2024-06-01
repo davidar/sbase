@@ -10,7 +10,7 @@ usage(void)
 }
 
 int
-main(int argc, char *argv[])
+sleep_main(int argc, char *argv[])
 {
 	unsigned seconds;
 

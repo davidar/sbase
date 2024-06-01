@@ -12,7 +12,7 @@ usage(void)
 }
 
 int
-main(int argc, char *argv[])
+tee_main(int argc, char *argv[])
 {
 	int *fds = NULL;
 	size_t i, nfds;

@@ -173,7 +173,7 @@ usage(void)
 }
 
 int
-main(int argc, char *argv[])
+grep_main(int argc, char *argv[])
 {
 	struct pattern *pnode;
 	int m, flags = REG_NOSUB, match = NoMatch;

@@ -116,7 +116,7 @@ getlinetype(char *type, regex_t *preg)
 }
 
 int
-main(int argc, char *argv[])
+nl_main(int argc, char *argv[])
 {
 	FILE *fp = NULL;
 	size_t s;

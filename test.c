@@ -229,7 +229,7 @@ fourarg(char *argv[])
 }
 
 int
-main(int argc, char *argv[])
+test_main(int argc, char *argv[])
 {
 	int (*narg[])(char *[]) = { noarg, onearg, twoarg, threearg, fourarg };
 	size_t len;

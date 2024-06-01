@@ -484,7 +484,7 @@ usage(void)
 }
 
 int
-main(int argc, char *argv[])
+cron_main(int argc, char *argv[])
 {
 	FILE *fp;
 	struct ctabentry *cte;

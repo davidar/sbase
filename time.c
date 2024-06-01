@@ -15,7 +15,7 @@ usage(void)
 }
 
 int
-main(int argc, char *argv[])
+time_main(int argc, char *argv[])
 {
 	pid_t pid;
 	struct tms tms; /* user and sys times */

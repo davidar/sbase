@@ -22,7 +22,7 @@ usage(void)
 }
 
 int
-main(int argc, char *argv[])
+mknod_main(int argc, char *argv[])
 {
 	mode_t mode = 0666;
 	dev_t dev;

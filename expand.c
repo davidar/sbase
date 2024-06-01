@@ -86,7 +86,7 @@ usage(void)
 }
 
 int
-main(int argc, char *argv[])
+expand_main(int argc, char *argv[])
 {
 	FILE *fp;
 	int ret = 0;

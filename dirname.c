@@ -11,7 +11,7 @@ usage(void)
 }
 
 int
-main(int argc, char *argv[])
+dirname_main(int argc, char *argv[])
 {
 	ARGBEGIN {
 	default:

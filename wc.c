@@ -67,7 +67,7 @@ usage(void)
 }
 
 int
-main(int argc, char *argv[])
+wc_main(int argc, char *argv[])
 {
 	FILE *fp;
 	int many;

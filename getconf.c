@@ -21,7 +21,7 @@ usage(void)
 }
 
 int
-main(int argc, char *argv[])
+getconf_main(int argc, char *argv[])
 {
 	size_t len;
 	long res;

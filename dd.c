@@ -72,7 +72,7 @@ summary(void)
 }
 
 int
-main(int argc, char *argv[])
+dd_main(int argc, char *argv[])
 {
 	enum {
 		LCASE   = 1 << 0,

@@ -224,7 +224,7 @@ usage(void)
 }
 
 int
-main(int argc, char *argv[])
+uudecode_main(int argc, char *argv[])
 {
 	FILE *fp = NULL, *nfp = NULL;
 	mode_t mode = 0;

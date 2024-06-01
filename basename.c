@@ -12,7 +12,7 @@ usage(void)
 }
 
 int
-main(int argc, char *argv[])
+basename_main(int argc, char *argv[])
 {
 	ssize_t off;
 	char *p;

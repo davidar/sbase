@@ -13,7 +13,7 @@ usage(void)
 }
 
 int
-main(int argc, char *argv[])
+setsid_main(int argc, char *argv[])
 {
 	int savederrno;
 

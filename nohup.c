@@ -15,7 +15,7 @@ usage(void)
 }
 
 int
-main(int argc, char *argv[])
+nohup_main(int argc, char *argv[])
 {
 	int fd, savederrno;
 

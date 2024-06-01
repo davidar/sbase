@@ -40,7 +40,7 @@ rev(FILE *fp)
 }
 
 int
-main(int argc, char *argv[])
+rev_main(int argc, char *argv[])
 {
 	FILE *fp;
 	int ret = 0;

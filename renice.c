@@ -41,7 +41,7 @@ usage(void)
 }
 
 int
-main(int argc, char *argv[])
+renice_main(int argc, char *argv[])
 {
 	const char *adj = NULL;
 	long val;

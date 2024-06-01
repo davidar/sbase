@@ -11,7 +11,7 @@ usage(void)
 }
 
 int
-main(int argc, char *argv[])
+rm_main(int argc, char *argv[])
 {
 	struct recursor r = { .fn = rm, .maxdepth = 1, .follow = 'P' };
 

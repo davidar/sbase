@@ -12,7 +12,7 @@ usage(void)
 }
 
 int
-main(int argc, char *argv[])
+rmdir_main(int argc, char *argv[])
 {
 	int pflag = 0, ret = 0;
 	char *d;

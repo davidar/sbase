@@ -10,7 +10,7 @@ usage(void)
 }
 
 int
-main(int argc, char *argv[])
+link_main(int argc, char *argv[])
 {
 	ARGBEGIN {
 	default:

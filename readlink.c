@@ -14,7 +14,7 @@ usage(void)
 }
 
 int
-main(int argc, char *argv[])
+readlink_main(int argc, char *argv[])
 {
 	char buf[PATH_MAX];
 	ssize_t n;

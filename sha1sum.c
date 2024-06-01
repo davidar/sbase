@@ -21,7 +21,7 @@ usage(void)
 }
 
 int
-main(int argc, char *argv[])
+sha1sum_main(int argc, char *argv[])
 {
 	int ret = 0, (*cryptfunc)(int, char **, struct crypt_ops *, uint8_t *, size_t) = cryptmain;
 	uint8_t md[SHA1_DIGEST_LENGTH];

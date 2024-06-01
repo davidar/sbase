@@ -16,7 +16,7 @@ usage(void)
 }
 
 int
-main(int argc, char *argv[])
+flock_main(int argc, char *argv[])
 {
 	int fd, status, savederrno, flags = LOCK_EX, nonblk = 0, oflag = 0;
 	pid_t pid;

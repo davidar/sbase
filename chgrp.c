@@ -35,7 +35,7 @@ usage(void)
 }
 
 int
-main(int argc, char *argv[])
+chgrp_main(int argc, char *argv[])
 {
 	struct group *gr;
 	struct recursor r = { .fn = chgrp, .maxdepth = 1, .follow = 'P' };

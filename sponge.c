@@ -12,7 +12,7 @@ usage(void)
 }
 
 int
-main(int argc, char *argv[])
+sponge_main(int argc, char *argv[])
 {
 	char tmp[] = "/tmp/sponge-XXXXXX";
 	int fd, tmpfd;

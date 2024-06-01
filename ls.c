@@ -366,7 +366,7 @@ usage(void)
 }
 
 int
-main(int argc, char *argv[])
+ls_main(int argc, char *argv[])
 {
 	struct entry ent, *dents, *fents;
 	size_t i, ds, fs;

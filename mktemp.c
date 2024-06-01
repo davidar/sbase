@@ -14,7 +14,7 @@ usage(void)
 }
 
 int
-main(int argc, char *argv[])
+mktemp_main(int argc, char *argv[])
 {
 	int dflag = 0, pflag = 0, qflag = 0, tflag = 0, uflag = 0, fd;
 	char *template = "tmp.XXXXXXXXXX", *tmpdir = "", *pdir,

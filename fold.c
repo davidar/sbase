@@ -83,7 +83,7 @@ usage(void)
 }
 
 int
-main(int argc, char *argv[])
+fold_main(int argc, char *argv[])
 {
 	FILE *fp;
 	int ret = 0;

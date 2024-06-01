@@ -49,7 +49,7 @@ usage(void)
 }
 
 int
-main(int argc, char *argv[])
+strings_main(int argc, char *argv[])
 {
 	FILE *fp;
 	size_t min = 4;

@@ -12,7 +12,7 @@ usage(void)
 }
 
 int
-main(int argc, char *argv[])
+cat_main(int argc, char *argv[])
 {
 	int fd, ret = 0;
 

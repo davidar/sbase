@@ -42,7 +42,7 @@ usage(void)
 }
 
 int
-main(int argc, char *argv[])
+mv_main(int argc, char *argv[])
 {
 	struct stat st;
 

@@ -1690,7 +1690,7 @@ old_next(void)
 }
 
 int
-main(int argc, char *argv[])
+sed_main(int argc, char *argv[])
 {
 	char *arg;
 	int script = 0;

@@ -58,7 +58,7 @@ usage(void)
 }
 
 int
-main(int argc, char *argv[])
+du_main(int argc, char *argv[])
 {
 	struct recursor r = { .fn = du, .follow = 'P' };
 	off_t n = 0;

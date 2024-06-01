@@ -30,7 +30,7 @@ usage(void)
 }
 
 int
-main(int argc, char *argv[])
+chmod_main(int argc, char *argv[])
 {
 	struct recursor r = { .fn = chmodr, .maxdepth = 1, .follow = 'H', .flags = DIRFIRST };
 	size_t i;

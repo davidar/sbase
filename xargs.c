@@ -198,7 +198,7 @@ usage(void)
 }
 
 int
-main(int argc, char *argv[])
+xargs_main(int argc, char *argv[])
 {
 	int ret = 0, leftover = 0, i, j;
 	size_t argsz, argmaxsz;

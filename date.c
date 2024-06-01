@@ -62,7 +62,7 @@ setdate(const char *s, struct tm *now)
 }
 
 int
-main(int argc, char *argv[])
+date_main(int argc, char *argv[])
 {
 	struct tm *now;
 	time_t t;

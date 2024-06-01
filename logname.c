@@ -11,7 +11,7 @@ usage(void)
 }
 
 int
-main(int argc, char *argv[])
+logname_main(int argc, char *argv[])
 {
 	char *login;
 

@@ -29,7 +29,7 @@ usage(void)
 }
 
 int
-main(int argc, char *argv[])
+head_main(int argc, char *argv[])
 {
 	size_t n = 10;
 	FILE *fp;

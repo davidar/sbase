@@ -247,7 +247,7 @@ usage(void)
 }
 
 int
-main(int argc, char *argv[])
+tftp_main(int argc, char *argv[])
 {
 	struct addrinfo hints, *res, *r;
 	struct timeval tv;

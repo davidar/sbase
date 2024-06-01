@@ -98,7 +98,7 @@ usage(void)
 }
 
 int
-main(int argc, char *argv[])
+uniq_main(int argc, char *argv[])
 {
 	FILE *fp[2] = { stdin, stdout };
 	int ret = 0, i;

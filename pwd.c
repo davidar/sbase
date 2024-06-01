@@ -28,7 +28,7 @@ usage(void)
 }
 
 int
-main(int argc, char *argv[])
+pwd_main(int argc, char *argv[])
 {
 	char cwd[PATH_MAX];
 	char mode = 'L';

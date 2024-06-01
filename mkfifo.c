@@ -12,7 +12,7 @@ usage(void)
 }
 
 int
-main(int argc, char *argv[])
+mkfifo_main(int argc, char *argv[])
 {
 	mode_t mode = 0666;
 	int ret = 0;

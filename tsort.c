@@ -179,7 +179,7 @@ usage(void)
 }
 
 int
-main(int argc, char *argv[])
+tsort_main(int argc, char *argv[])
 {
 	FILE *fp = stdin;
 	const char *fn = "<stdin>";

@@ -147,7 +147,7 @@ usage(void)
 }
 
 int
-main(int argc, char *argv[])
+tail_main(int argc, char *argv[])
 {
 	struct stat st1, st2;
 	int fd;

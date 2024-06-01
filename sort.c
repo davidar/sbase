@@ -323,7 +323,7 @@ usage(void)
 }
 
 int
-main(int argc, char *argv[])
+sort_main(int argc, char *argv[])
 {
 	FILE *fp, *ofp = stdout;
 	struct linebuf linebuf = EMPTY_LINEBUF;

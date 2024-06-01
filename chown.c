@@ -41,7 +41,7 @@ usage(void)
 }
 
 int
-main(int argc, char *argv[])
+chown_main(int argc, char *argv[])
 {
 	struct group *gr;
 	struct passwd *pw;

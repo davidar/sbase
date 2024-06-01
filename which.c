@@ -69,7 +69,7 @@ usage(void)
 }
 
 int
-main(int argc, char *argv[])
+which_main(int argc, char *argv[])
 {
 	char *path;
 	int found = 0, foundall = 1;

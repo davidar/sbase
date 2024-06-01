@@ -81,7 +81,7 @@ usage(void)
 }
 
 int
-main(int argc, char *argv[])
+xinstall_main(int argc, char *argv[])
 {
 	int dflag = 0;
 	char *gflag = 0;

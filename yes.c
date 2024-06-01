@@ -10,7 +10,7 @@ usage(void)
 }
 
 int
-main(int argc, char *argv[])
+yes_main(int argc, char *argv[])
 {
 	const char *s;
 

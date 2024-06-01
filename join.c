@@ -450,7 +450,7 @@ join(FILE *fa, FILE *fb, size_t jfa, size_t jfb)
 
 
 int
-main(int argc, char *argv[])
+join_main(int argc, char *argv[])
 {
 	size_t jf[2] = { jfield, jfield, };
 	FILE *fp[2];

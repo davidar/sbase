@@ -77,7 +77,7 @@ usage(void)
 }
 
 int
-main(int argc, char *argv[])
+seq_main(int argc, char *argv[])
 {
 	double start, step, end, out, dir;
 	int wflag = 0, left, right;

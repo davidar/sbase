@@ -1015,7 +1015,7 @@ usage(void)
 }
 
 int
-main(int argc, char **argv)
+find_main(int argc, char **argv)
 {
 	char **paths;
 	int npaths;

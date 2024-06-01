@@ -18,7 +18,7 @@ usage(void)
 }
 
 int
-main(int argc, char *argv[])
+cols_main(int argc, char *argv[])
 {
 	FILE *fp;
 	struct winsize w;

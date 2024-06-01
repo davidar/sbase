@@ -11,7 +11,7 @@ usage(void)
 }
 
 int
-main(int argc, char *argv[])
+cp_main(int argc, char *argv[])
 {
 	struct stat st;
 

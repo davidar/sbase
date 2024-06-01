@@ -13,7 +13,7 @@ usage(void)
 }
 
 int
-main(int argc, char *argv[])
+whoami_main(int argc, char *argv[])
 {
 	uid_t uid;
 	struct passwd *pw;

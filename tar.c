@@ -515,7 +515,7 @@ usage(void)
 }
 
 int
-main(int argc, char *argv[])
+tar_main(int argc, char *argv[])
 {
 	struct recursor r = { .fn = c, .follow = 'P', .flags = DIRFIRST };
 	struct stat st;

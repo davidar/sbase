@@ -170,7 +170,7 @@ usage(void)
 }
 
 int
-main(int argc, char *argv[])
+tr_main(int argc, char *argv[])
 {
 	Rune r, lastrune = 0;
 	size_t off1, off2, i, m;

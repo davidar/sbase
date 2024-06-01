@@ -1,6 +1,6 @@
 /* See LICENSE file for copyright and license details. */
 int
-main(void)
+true_main(void)
 {
 	return 0;
 }

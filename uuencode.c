@@ -97,7 +97,7 @@ usage(void)
 }
 
 int
-main(int argc, char *argv[])
+uuencode_main(int argc, char *argv[])
 {
 	FILE *fp = NULL;
 	void (*uuencode_f)(FILE *, const char *, const char *) = uuencode;

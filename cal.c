@@ -146,7 +146,7 @@ usage(void)
 }
 
 int
-main(int argc, char *argv[])
+cal_main(int argc, char *argv[])
 {
 	time_t now;
 	size_t year, ncols, nmons;

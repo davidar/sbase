@@ -45,7 +45,7 @@ usage(void)
 }
 
 int
-main(int argc, char *argv[])
+split_main(int argc, char *argv[])
 {
 	FILE *in = stdin, *out = NULL;
 	off_t size = 1000, n;

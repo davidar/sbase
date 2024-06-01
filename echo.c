@@ -4,7 +4,7 @@
 #include "util.h"
 
 int
-main(int argc, char *argv[])
+echo_main(int argc, char *argv[])
 {
 	int nflag = 0;
 

@@ -12,7 +12,7 @@ usage(void)
 }
 
 int
-main(int argc, char *argv[])
+chroot_main(int argc, char *argv[])
 {
 	char *shell[] = { "/bin/sh", "-i", NULL }, *aux, *cmd;
 	int savederrno;
